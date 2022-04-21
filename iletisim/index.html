@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/form.css">
+</head>
+<body>
+    <ul>
+        <li><a class="active" href="/">Anasayfa</a></li>
+        <li><a href="/tarihce/">Tarihçe</a></li>
+        <li><a href="/yemekler/">Yemekler</a></li>
+        <li><a href="/iletisim/">İletişim</a></li>
+       
+        
+      </ul>
+    <div class="container">  
+        <form id="contact" action="" method="post">
+          <h3>İletişim Formu</h3>
+         
+          <fieldset>
+            <input placeholder="İsminiz" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Email Adresiniz" type="email" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Telefon Numaranız" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+        
+          <fieldset>
+            <textarea placeholder="Mesajınızı Buraya Girebilirsiniz" tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Gönder</button>
+          </fieldset>
+         
+        </form>
+      </div>
+</body>
+</html>
